@@ -6,15 +6,15 @@
 Проводилось позитивное функциональное тестирование на соответствие ожидаемого результата реальному.
 
 _Описание процесса тестирования:
--Загружаем программу AdoptOpenJDK\jdk-11.0.8.10-hotspot
--Загружаем программу JetBrains\IntelliJ IDEA Community Edition 2020.2
--Загружаем программу расчета бонуса из архива по ссылке: bonus-service.zip
+Загружаем программу AdoptOpenJDK\jdk-11.0.8.10-hotspot
+Загружаем программу JetBrains\IntelliJ IDEA Community Edition 2020.2
+Загружаем программу расчета бонуса из архива по ссылке: bonus-service.zip
 
 _Последовательность действий:
-1.Открываем скачанный архив как Maven проект.
-2.Открываем файлы Main.java и BonusService.java.
-3.Запускаем команду Maven : mvn clean compile spotbugs:check
-4.Наблюдаем ошибку : [ERROR] Return value of BonusService.calculate(long, boolean) ignored, but method has no side effect [Main] At Main.java:[line 8]
+Открываем скачанный архив как Maven проект.
+Открываем файлы Main.java и BonusService.java.
+Запускаем команду Maven : mvn clean compile spotbugs:check
+Наблюдаем ошибку : [ERROR] Return value of BonusService.calculate(long, boolean) ignored, but method has no side effect [Main] At Main.java:[line 8]
 
 **Ожидаемый результат:
 30
